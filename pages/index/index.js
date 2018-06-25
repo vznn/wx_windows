@@ -9,15 +9,15 @@ Page({
     ],
     icon: [{
         icon: "http://pxy-10024049.cossh.myqcloud.com/chuanglian/icon/favorite.png",
-        text: '热销产品'
+        text: '热销商品'
       },
       {
         icon: "http://pxy-10024049.cossh.myqcloud.com/chuanglian/icon/clock.png",
-        text: '新上产品'
+        text: '新上商品'
       },
       {
         icon: "http://pxy-10024049.cossh.myqcloud.com/chuanglian/icon/all1.png",
-        text: '所有产品'
+        text: '所有商品'
       },
       {
         icon: "http://pxy-10024049.cossh.myqcloud.com/chuanglian/icon/map.png",
