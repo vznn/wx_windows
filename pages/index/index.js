@@ -4,8 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: ["http://pxy-10024049.cossh.myqcloud.com/ban.jpg",
-      "http://pxy-10024049.cossh.myqcloud.com/ban.jpg"
+    imgUrls: ["http://pxy-10024049.cossh.myqcloud.com/chuanglian/index/ban1.png",
+      "http://pxy-10024049.cossh.myqcloud.com/chuanglian/index/ban2.png"
     ],
     icon: [{
         icon: "http://pxy-10024049.cossh.myqcloud.com/chuanglian/icon/favorite.png",

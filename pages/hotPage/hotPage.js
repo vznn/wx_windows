@@ -2,18 +2,14 @@ Page({
 
  
   data: {
-    goods:[]
+    goods: ["http://pxy-10024049.cossh.myqcloud.com/chuanglian/all/1.JPG",
+      "http://pxy-10024049.cossh.myqcloud.com/chuanglian/all/2.JPG",
+      "http://pxy-10024049.cossh.myqcloud.com/chuanglian/all/3.JPG",
+      "http://pxy-10024049.cossh.myqcloud.com/chuanglian/all/4.JPG",
+      "http://pxy-10024049.cossh.myqcloud.com/chuanglian/all/5.JPG",
+      "http://pxy-10024049.cossh.myqcloud.com/chuanglian/all/6.JPG"]
   },
   onLoad: function (options) {
-    var goods=[];
-    for(var i=0;i<11;i++){
-      goods[i] = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521968657168&di=a67a8f3890640a304e9c1b0498b210c5&imgtype=0&src=http%3A%2F%2Fwww.baiheby.com%2Fuploads%2Fallimg%2F170205%2F1-1F2051ZA1.jpg","https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521968657168&di=a67a8f3890640a304e9c1b0498b210c5&imgtype=0&src=http%3A%2F%2Fwww.baiheby.com%2Fuploads%2Fallimg%2F170205%2F1-1F2051ZA1.jpg"
-    }
-    this.setData({
-      goods:goods
-    })
-
-
   },
 
   /**
@@ -63,5 +59,11 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  previewImage: function (e) {
+    var src = e.currentTarget.dataset.src; //获取data-src
+    wx.previewImage({
+      urls: [src],
+    })
   }
 })

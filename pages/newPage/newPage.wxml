@@ -1,11 +1,7 @@
 <view class="container">
-  <view class="title">
-    <text>新品上架</text>
-  </view>
-
   <view class="goods">
-    <view class="good" wx:for="{{goods}}">
-    <image src='{{item}}' class="image"> </image>
+    <view class="good" wx:for="{{goods}}" wx:key="unique" >
+      <image  bindtap="previewImage"  data-src="{{item}}" class="image" src='{{item}}'  > </image>
     </view>
   </view>
 </view>
