@@ -1,0 +1,30 @@
+.container{
+  width:100%;
+  font-family: 微软雅黑;
+}
+.title{
+  width:100%;
+  height:20px;
+  padding:10px 0px;
+  text-align: center;
+  font-size:16px;
+  font-weight: bold;
+}
+.goods{
+  width:100%;
+  height:150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.good{
+  width:50%;
+  height:120px;
+  padding-bottom:10px;
+  display: flex;
+  justify-content: center;
+}
+.image{
+  width:90%;
+  height:120px;
+}

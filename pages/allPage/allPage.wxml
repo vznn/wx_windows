@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="title">
+    <text>所有产品</text>
+  </view>
+
+  <view class="goods">
+    <view class="good" wx:for="{{goods}}">
+    <image src='{{item}}' class="image"> </image>
+    </view>
+  </view>
+</view>

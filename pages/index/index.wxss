@@ -1,0 +1,144 @@
+swiper {
+  height: 200px;
+}
+
+swiper .image {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  font-family: 微软雅黑;
+}
+
+.container  .navigation {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .icon {
+  width: 25%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container .picture {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .text {
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container .iconSize {
+  width: 40px;
+  height: 40px;
+}
+
+.container .title {
+  height: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container .context {
+  position: relative;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container .txt1 {
+  width: 90%;
+  padding-left: 5%;
+  margin-top: 15px;
+  display: block;
+}
+
+/*mask*/
+
+.drawer_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #000;
+  opacity: 0.65;
+  overflow: hidden;
+}
+
+/*content*/
+
+.drawer_box {
+  width: 650rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 1001;
+  background: #fafafa;
+  margin: -150px 50rpx 0 50rpx;
+  border-radius: 0px;
+}
+
+.drawer_title {
+  padding: 10px;
+  font: 20px "microsoft yahei";
+  text-align: center;
+  border-bottom: 1px solid #e8e8ea;
+}
+
+.drawer_content {
+  height: auto;
+  overflow-y: scroll; /*超出父盒子高度可滚动*/
+}
+
+.btn_ok {
+  padding: 10px;
+  font: 20px "microsoft yahei";
+  text-align: center;
+  margin-top:20px;
+  border-top: 1px solid #e8e8ea;
+  color: #3cc51f;
+}
+.con_name{
+  font-family: 微软雅黑;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: block;
+}
+.con_tel1,.con_tel2,.con_add1,.con_add2,.remark{
+  font-family: 微软雅黑;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 5px;
+  display: block;
+}
+.con_add1 span,.con_add2 span{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.remark{
+  color: red;
+  font-size: 14px;
+}
+

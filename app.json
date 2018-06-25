@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/allPage/allPage",
+    "pages/newPage/newPage",
+    "pages/hotPage/hotPage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小四川窗帘",
+    "navigationBarTextStyle": "black"
+  }
+}
